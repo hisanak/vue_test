@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello World</h1>
+    <h1 v-on:click="$router.push({name: 'gallery'})">Hello World(click to gallery)</h1>
   </div>
 </template>
 

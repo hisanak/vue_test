@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Gallery</h1>
-    <p>{{txt}}</p>
+    <p v-on:click="$router.push({name: 'top'})">{{txt}}(click to top)</p>
   </div>
 </template>
 
